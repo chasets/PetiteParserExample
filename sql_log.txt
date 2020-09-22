@@ -1,0 +1,7 @@
+150702  15:25:08  2 Connect phpmyadmin@localhost on
+                  3 Connect root@localhost on
+                  2 Init DB ESUG2015
+                  2 Query SET CHARACTER SET 'utf8'
+                  3 Query SELECT * FROM 'petitparser'
+                  3 Quit
+150702  15:25:09  4 Connect phpmyadmin@localhost 
