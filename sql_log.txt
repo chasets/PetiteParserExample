@@ -1,7 +1,26 @@
-150702  15:25:08  2 Connect phpmyadmin@localhost on
-                  3 Connect root@localhost on
-                  2 Init DB ESUG2015
-                  2 Query SET CHARACTER SET 'utf8'
-                  3 Query SELECT * FROM 'petitparser'
-                  3 Quit
-150702  15:25:09  4 Connect phpmyadmin@localhost 
+Time              ID  Command   Argument
+150702  15:25:04  1   Connect   root@localhost on
+                  1   Connect   Access denied for `root`@`localhost`
+150702  15:25:08  2   Connect   phpmyadmin@localhost on
+                  3   Connect   root@localhost on
+                  2   Init DB   ESUG2015
+                  2   Query     SET CHARACTER SET `utf8`
+                  3   Query     SELECT * FROM `petitparser`
+                  3   Quit
+                  2   Quit
+150702  15:25:10  4   Connect   phpmyadmin@localhost 
+                  5   Connect   root@localhost on
+                  4   Query     SET CHARACTER SET `utf8
+                  5   Query     SHOW COLUMNS FROM `ESUG2015`.`petitparser`
+                  5   Quit
+                  4   Quit
+150702  15:25:11  6   Connect   phpmyadmin@localhost
+                  7   Connect   root@localhost on     
+                  6   Query     SET CHARACTER SET `utf8
+                  7   Init DB   ESUG2015
+                  7   Query     SHOW TABLES LIKE `petitparser`
+                  7   Quit
+                  8   Quit
+                  
+                  
+                  
